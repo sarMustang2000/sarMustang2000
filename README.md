@@ -12,7 +12,7 @@ command.
 | Project | What it shows | Stack |
 |---|---|---|
 | [**chain-wallet-service**](https://github.com/sarMustang2000/chain-wallet-service) | Exchange custody backend: reorg-safe deposit scanning, exactly-once crediting, nonce-safe withdrawals, double-entry ledger, continuous on-chain reconciliation | Python · Django · Celery · PostgreSQL |
-| [**polymarket-pnl-indexer**](https://github.com/sarMustang2000/polymarket-pnl-indexer) | Reconstructs every Polymarket wallet's positions and realized PnL from raw Polygon logs; runs against mainnet or a simulated market | Go · go-ethereum |
+| **on-chain-analytics** *(private, access on request)* | Go service that indexes prediction-market activity on Polygon and reconstructs per-wallet positions and PnL | Go · go-ethereum |
 | [**k3s-platform-kit**](https://github.com/sarMustang2000/k3s-platform-kit) | Empty servers to production: hardened hosts, k3s, MySQL, TLS edge, backups, monitoring, one Helm chart, a CI security gate with image signing | Ansible · Helm · GitHub Actions · GitLab CI |
 | **tinyplatform-demo** *(private, access on request)* | My health-tech startup's real backend and web app (growth charts, SMS reminders, development checks) with a one-command demo mode | Django · Celery · Next.js · MySQL |
 
